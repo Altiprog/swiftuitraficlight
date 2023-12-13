@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @State private var activeCircle = 0
 
     var body: some View {
@@ -48,7 +49,6 @@ struct ContentView: View {
         .padding()
     }
 }
-
 
 #Preview {
     ZStack {
